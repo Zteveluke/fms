@@ -44,3 +44,8 @@ if($action == 'save_user'){
 	if($save)
 		echo $save;
 }
+if($action == 'delete_user'){
+	$delete = $crud->delete_user();
+	if($delete)
+		echo $delete;
+}
