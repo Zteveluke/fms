@@ -1,3 +1,3 @@
 <?php 
 
-$conn= new mysqli('localhost','root','','fms_db')or die("Could not connect to mysql".mysqli_error($con));
+$conn= new mysqli('remotemysql.com','CJp6QMpPjw','deKkCwdora','CJp6QMpPjw')or die("Could not connect to mysql".mysqli_error($con));
