@@ -72,6 +72,6 @@ $('.edit_user').click(function(){
 	uni_modal('Edit User','manage_user.php?id='+$(this).attr('data-id'))
 })
 $('.delete_user').click(function(){
-	uni_modal('Delete User','manage_user.php?id='+$(this).attr('data-id'))
+	_conf("Are you sure to delete this user?","delete_user",[$(this).attr('data-id')])
 })
 </script>
