@@ -50,7 +50,7 @@ foreach($user->fetch_array() as $k =>$v){
 			}
 		})
 	})
-	$('#delete-user').submit(function delete_user($id){
+	function delete_user($id){
 		start_load()
 		$.ajax({
 			url:'ajax.php?action=delete_user',
